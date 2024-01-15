@@ -1,7 +1,7 @@
 import argparse
 
-from auth import is_logged_in, login, logout
-from db import add_song_to_db, connect_to_database, db_sync, search_song_by
+from crud_app_prp.auth import is_logged_in, login, logout
+from crud_app_prp.db import add_song_to_db, connect_to_database, db_sync, search_song_by
 
 
 def main():

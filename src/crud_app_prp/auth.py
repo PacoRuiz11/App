@@ -1,6 +1,6 @@
 import os
 
-from db import connect_to_database, user_exists
+from crud_app_prp.db import connect_to_database, user_exists
 
 
 def login(user: str):
