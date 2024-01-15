@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crud_app_prp"
+version = "0.0.1"
+authors = [
+    {name = "PacoRuiz", emai="ruizpinopaco@uma.es"}
+]
+description = "A simple crud app"
+readme = "README.md"
+
+requires-python = ">=3.7"
+classifierss = ["Development Status :: 2 - Pre-Alpha"]
+
+dpendencies = [
+    "cryptography",
+    "pymysql>=1.0.0",
+    "pymongo"
+    
+]
+
+[project.url]
+"Homepage" = "https://github.com.PacoRuiz11/APP-CRUD"
+
+[project.optional-dpendencies]
+dev = {
+    "pytest",
+    "black",
+    "ruff"
+}
+
